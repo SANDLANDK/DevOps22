@@ -1,0 +1,91 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+    font-size: 2.5em;
+}
+
+h1 {
+    margin: 0;
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+    margin: 20px 0;
+    background-color: #fff;
+}
+
+section h2 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    color: #666;
+}
+
+.image-container {
+    margin-top: 20px;
+}
+
+img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    font-size: 1em;
+    margin: 5px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    section h2 {
+        font-size: 2em;
+    }
+
+    section p {
+        font-size: 1em;
+    }
+
+    img {
+        max-width: 100%;
+    }
+}
